@@ -6,6 +6,7 @@ namespace runtest {
     //% blockId=runtest_init
     //% block="on run testing do $mystat"
     //% handlerStatement
+    //% weight=3
     export function init(mystat: () => void) {
         const time = control.millis()
         mystat()
@@ -14,12 +15,14 @@ namespace runtest {
 
     //% blockId=runtest_result
     //% block="runtest result (millis)"
+    //% weight=2
     export function result() {
         return runResult
     }
 
     //% blockId=runtest_runtime
     //% block="system runtime (millis)"
+    //% weight=1
     export function sysRuntimeMS() {
         return control.millis()
     }
