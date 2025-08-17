@@ -1,6 +1,6 @@
 {
     "name": "arcade-runtest",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "makecode arcade running test extension",
     "dependencies": {
         "device": "*"
