@@ -4,7 +4,7 @@ namespace runtest {
     let runResult = 0
 
     //% blockId=runtest_init
-    //% block="on run testing do $mystat"
+    //% block="on run testing do"
     //% handlerStatement
     //% weight=3
     export function init(mystat: () => void) {
